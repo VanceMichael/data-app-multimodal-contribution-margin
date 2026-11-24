@@ -276,6 +276,58 @@
       "refs": {
         "segment": "segments.id"
       }
+    },
+    "charge_revisions": {
+      "description": "原账单事后更正，保留原记录",
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "更正"
+        },
+        "charge": {
+          "type": "string",
+          "description": "原账单"
+        },
+        "amount_minor": {
+          "type": "integer",
+          "description": "更正后原币额"
+        },
+        "known_month": {
+          "type": "integer",
+          "description": "知悉月"
+        }
+      },
+      "refs": {
+        "charge": "charges.id"
+      }
+    },
+    "refunds": {
+      "description": "客户退款和已付代理款应分别对账",
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "退款"
+        },
+        "shipment": {
+          "type": "string",
+          "description": "票货"
+        },
+        "amount_minor": {
+          "type": "integer",
+          "description": "原币金额"
+        },
+        "currency": {
+          "type": "string",
+          "description": "币种"
+        },
+        "known_month": {
+          "type": "integer",
+          "description": "知悉月"
+        }
+      },
+      "refs": {
+        "shipment": "shipments.id"
+      }
     }
   }
 }

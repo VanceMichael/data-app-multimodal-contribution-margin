@@ -1,0 +1,9 @@
+[
+  {
+    "id": "rf1",
+    "shipment": "s1",
+    "amount_minor": 50000,
+    "currency": "CNY",
+    "known_month": 12
+  }
+]
