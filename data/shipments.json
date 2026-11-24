@@ -1,0 +1,402 @@
+[
+  {
+    "id": "s0",
+    "customer": "客户0",
+    "category": "电子",
+    "weight_kg": 20,
+    "chargeable_kg": 25,
+    "revenue_minor": 100000,
+    "currency": "USD",
+    "received_minor": 0
+  },
+  {
+    "id": "s1",
+    "customer": "客户1",
+    "category": "机械",
+    "weight_kg": 21,
+    "chargeable_kg": 26,
+    "revenue_minor": 100500,
+    "currency": "CNY",
+    "received_minor": 80000
+  },
+  {
+    "id": "s2",
+    "customer": "客户2",
+    "category": "电子",
+    "weight_kg": 22,
+    "chargeable_kg": 27,
+    "revenue_minor": 101000,
+    "currency": "CNY",
+    "received_minor": 80000
+  },
+  {
+    "id": "s3",
+    "customer": "客户3",
+    "category": "机械",
+    "weight_kg": 23,
+    "chargeable_kg": 28,
+    "revenue_minor": 101500,
+    "currency": "USD",
+    "received_minor": 80000
+  },
+  {
+    "id": "s4",
+    "customer": "客户4",
+    "category": "电子",
+    "weight_kg": 24,
+    "chargeable_kg": 29,
+    "revenue_minor": 102000,
+    "currency": "CNY",
+    "received_minor": 80000
+  },
+  {
+    "id": "s5",
+    "customer": "客户5",
+    "category": "机械",
+    "weight_kg": 25,
+    "chargeable_kg": 30,
+    "revenue_minor": 102500,
+    "currency": "CNY",
+    "received_minor": 0
+  },
+  {
+    "id": "s6",
+    "customer": "客户6",
+    "category": "电子",
+    "weight_kg": 26,
+    "chargeable_kg": 31,
+    "revenue_minor": 103000,
+    "currency": "USD",
+    "received_minor": 80000
+  },
+  {
+    "id": "s7",
+    "customer": "客户7",
+    "category": "机械",
+    "weight_kg": 27,
+    "chargeable_kg": 32,
+    "revenue_minor": 103500,
+    "currency": "CNY",
+    "received_minor": 80000
+  },
+  {
+    "id": "s8",
+    "customer": "客户0",
+    "category": "电子",
+    "weight_kg": 28,
+    "chargeable_kg": 33,
+    "revenue_minor": 104000,
+    "currency": "CNY",
+    "received_minor": 80000
+  },
+  {
+    "id": "s9",
+    "customer": "客户1",
+    "category": "机械",
+    "weight_kg": 29,
+    "chargeable_kg": 34,
+    "revenue_minor": 104500,
+    "currency": "USD",
+    "received_minor": 80000
+  },
+  {
+    "id": "s10",
+    "customer": "客户2",
+    "category": "电子",
+    "weight_kg": 20,
+    "chargeable_kg": 35,
+    "revenue_minor": 105000,
+    "currency": "CNY",
+    "received_minor": 0
+  },
+  {
+    "id": "s11",
+    "customer": "客户3",
+    "category": "机械",
+    "weight_kg": 21,
+    "chargeable_kg": 36,
+    "revenue_minor": 105500,
+    "currency": "CNY",
+    "received_minor": 80000
+  },
+  {
+    "id": "s12",
+    "customer": "客户4",
+    "category": "电子",
+    "weight_kg": 22,
+    "chargeable_kg": 37,
+    "revenue_minor": 106000,
+    "currency": "USD",
+    "received_minor": 80000
+  },
+  {
+    "id": "s13",
+    "customer": "客户5",
+    "category": "机械",
+    "weight_kg": 23,
+    "chargeable_kg": 38,
+    "revenue_minor": 106500,
+    "currency": "CNY",
+    "received_minor": 80000
+  },
+  {
+    "id": "s14",
+    "customer": "客户6",
+    "category": "电子",
+    "weight_kg": 24,
+    "chargeable_kg": 25,
+    "revenue_minor": 107000,
+    "currency": "CNY",
+    "received_minor": 80000
+  },
+  {
+    "id": "s15",
+    "customer": "客户7",
+    "category": "机械",
+    "weight_kg": 25,
+    "chargeable_kg": 26,
+    "revenue_minor": 107500,
+    "currency": "USD",
+    "received_minor": 0
+  },
+  {
+    "id": "s16",
+    "customer": "客户0",
+    "category": "电子",
+    "weight_kg": 26,
+    "chargeable_kg": 27,
+    "revenue_minor": 108000,
+    "currency": "CNY",
+    "received_minor": 80000
+  },
+  {
+    "id": "s17",
+    "customer": "客户1",
+    "category": "机械",
+    "weight_kg": 27,
+    "chargeable_kg": 28,
+    "revenue_minor": 108500,
+    "currency": "CNY",
+    "received_minor": 80000
+  },
+  {
+    "id": "s18",
+    "customer": "客户2",
+    "category": "电子",
+    "weight_kg": 28,
+    "chargeable_kg": 29,
+    "revenue_minor": 109000,
+    "currency": "USD",
+    "received_minor": 80000
+  },
+  {
+    "id": "s19",
+    "customer": "客户3",
+    "category": "机械",
+    "weight_kg": 29,
+    "chargeable_kg": 30,
+    "revenue_minor": 109500,
+    "currency": "CNY",
+    "received_minor": 80000
+  },
+  {
+    "id": "s20",
+    "customer": "客户4",
+    "category": "电子",
+    "weight_kg": 20,
+    "chargeable_kg": 31,
+    "revenue_minor": 110000,
+    "currency": "CNY",
+    "received_minor": 0
+  },
+  {
+    "id": "s21",
+    "customer": "客户5",
+    "category": "机械",
+    "weight_kg": 21,
+    "chargeable_kg": 32,
+    "revenue_minor": 110500,
+    "currency": "USD",
+    "received_minor": 80000
+  },
+  {
+    "id": "s22",
+    "customer": "客户6",
+    "category": "电子",
+    "weight_kg": 22,
+    "chargeable_kg": 33,
+    "revenue_minor": 111000,
+    "currency": "CNY",
+    "received_minor": 80000
+  },
+  {
+    "id": "s23",
+    "customer": "客户7",
+    "category": "机械",
+    "weight_kg": 23,
+    "chargeable_kg": 34,
+    "revenue_minor": 111500,
+    "currency": "CNY",
+    "received_minor": 80000
+  },
+  {
+    "id": "s24",
+    "customer": "客户0",
+    "category": "电子",
+    "weight_kg": 24,
+    "chargeable_kg": 35,
+    "revenue_minor": 112000,
+    "currency": "USD",
+    "received_minor": 80000
+  },
+  {
+    "id": "s25",
+    "customer": "客户1",
+    "category": "机械",
+    "weight_kg": 25,
+    "chargeable_kg": 36,
+    "revenue_minor": 112500,
+    "currency": "CNY",
+    "received_minor": 0
+  },
+  {
+    "id": "s26",
+    "customer": "客户2",
+    "category": "电子",
+    "weight_kg": 26,
+    "chargeable_kg": 37,
+    "revenue_minor": 113000,
+    "currency": "CNY",
+    "received_minor": 80000
+  },
+  {
+    "id": "s27",
+    "customer": "客户3",
+    "category": "机械",
+    "weight_kg": 27,
+    "chargeable_kg": 38,
+    "revenue_minor": 113500,
+    "currency": "USD",
+    "received_minor": 80000
+  },
+  {
+    "id": "s28",
+    "customer": "客户4",
+    "category": "电子",
+    "weight_kg": 28,
+    "chargeable_kg": 25,
+    "revenue_minor": 114000,
+    "currency": "CNY",
+    "received_minor": 80000
+  },
+  {
+    "id": "s29",
+    "customer": "客户5",
+    "category": "机械",
+    "weight_kg": 29,
+    "chargeable_kg": 26,
+    "revenue_minor": 114500,
+    "currency": "CNY",
+    "received_minor": 80000
+  },
+  {
+    "id": "s30",
+    "customer": "客户6",
+    "category": "电子",
+    "weight_kg": 20,
+    "chargeable_kg": 27,
+    "revenue_minor": 115000,
+    "currency": "USD",
+    "received_minor": 0
+  },
+  {
+    "id": "s31",
+    "customer": "客户7",
+    "category": "机械",
+    "weight_kg": 21,
+    "chargeable_kg": 28,
+    "revenue_minor": 115500,
+    "currency": "CNY",
+    "received_minor": 80000
+  },
+  {
+    "id": "s32",
+    "customer": "客户0",
+    "category": "电子",
+    "weight_kg": 22,
+    "chargeable_kg": 29,
+    "revenue_minor": 116000,
+    "currency": "CNY",
+    "received_minor": 80000
+  },
+  {
+    "id": "s33",
+    "customer": "客户1",
+    "category": "机械",
+    "weight_kg": 23,
+    "chargeable_kg": 30,
+    "revenue_minor": 116500,
+    "currency": "USD",
+    "received_minor": 80000
+  },
+  {
+    "id": "s34",
+    "customer": "客户2",
+    "category": "电子",
+    "weight_kg": 24,
+    "chargeable_kg": 31,
+    "revenue_minor": 117000,
+    "currency": "CNY",
+    "received_minor": 80000
+  },
+  {
+    "id": "s35",
+    "customer": "客户3",
+    "category": "机械",
+    "weight_kg": 25,
+    "chargeable_kg": 32,
+    "revenue_minor": 117500,
+    "currency": "CNY",
+    "received_minor": 0
+  },
+  {
+    "id": "s36",
+    "customer": "客户4",
+    "category": "电子",
+    "weight_kg": 26,
+    "chargeable_kg": 33,
+    "revenue_minor": 118000,
+    "currency": "USD",
+    "received_minor": 80000
+  },
+  {
+    "id": "s37",
+    "customer": "客户5",
+    "category": "机械",
+    "weight_kg": 27,
+    "chargeable_kg": 34,
+    "revenue_minor": 118500,
+    "currency": "CNY",
+    "received_minor": 80000
+  },
+  {
+    "id": "s38",
+    "customer": "客户6",
+    "category": "电子",
+    "weight_kg": 28,
+    "chargeable_kg": 35,
+    "revenue_minor": 119000,
+    "currency": "CNY",
+    "received_minor": 80000
+  },
+  {
+    "id": "s39",
+    "customer": "客户7",
+    "category": "机械",
+    "weight_kg": 29,
+    "chargeable_kg": 36,
+    "revenue_minor": 119500,
+    "currency": "USD",
+    "received_minor": 80000
+  }
+]

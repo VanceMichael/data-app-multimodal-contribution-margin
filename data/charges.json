@@ -1,0 +1,42 @@
+[
+  {
+    "id": "c1",
+    "segment": "r1",
+    "kind": "固定",
+    "amount_minor": 800000,
+    "currency": "CNY",
+    "refundable": false,
+    "known_month": 10,
+    "tax_fraction": 0.06
+  },
+  {
+    "id": "c2",
+    "segment": "a1",
+    "kind": "固定",
+    "amount_minor": 100000,
+    "currency": "USD",
+    "refundable": false,
+    "known_month": 10,
+    "tax_fraction": 0
+  },
+  {
+    "id": "c3",
+    "segment": "a2",
+    "kind": "固定",
+    "amount_minor": 150000,
+    "currency": "USD",
+    "refundable": false,
+    "known_month": 11,
+    "tax_fraction": 0
+  },
+  {
+    "id": "c4",
+    "segment": "r1",
+    "kind": "查验",
+    "amount_minor": 20000,
+    "currency": "CNY",
+    "refundable": false,
+    "known_month": 11,
+    "tax_fraction": 0.06
+  }
+]

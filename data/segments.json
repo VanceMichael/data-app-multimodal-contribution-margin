@@ -1,0 +1,29 @@
+[
+  {
+    "id": "r1",
+    "route": "越桂港",
+    "kind": "陆运",
+    "currency": "CNY",
+    "minimum_minor": 800000,
+    "capacity_kg": 1000,
+    "transferable": false
+  },
+  {
+    "id": "a1",
+    "route": "越桂港",
+    "kind": "空运",
+    "currency": "USD",
+    "minimum_minor": 100000,
+    "capacity_kg": 800,
+    "transferable": true
+  },
+  {
+    "id": "a2",
+    "route": "直飞",
+    "kind": "空运",
+    "currency": "USD",
+    "minimum_minor": 150000,
+    "capacity_kg": 600,
+    "transferable": false
+  }
+]

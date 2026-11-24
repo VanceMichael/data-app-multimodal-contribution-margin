@@ -1,0 +1,422 @@
+[
+  {
+    "id": "l0",
+    "shipment": "s0",
+    "segment": "r1",
+    "kg": 25,
+    "state": "在载"
+  },
+  {
+    "id": "l1",
+    "shipment": "s1",
+    "segment": "r1",
+    "kg": 26,
+    "state": "退出"
+  },
+  {
+    "id": "l2",
+    "shipment": "s2",
+    "segment": "r1",
+    "kg": 27,
+    "state": "在载"
+  },
+  {
+    "id": "l3",
+    "shipment": "s3",
+    "segment": "r1",
+    "kg": 28,
+    "state": "在载"
+  },
+  {
+    "id": "l4",
+    "shipment": "s4",
+    "segment": "r1",
+    "kg": 29,
+    "state": "在载"
+  },
+  {
+    "id": "l5",
+    "shipment": "s5",
+    "segment": "r1",
+    "kg": 30,
+    "state": "在载"
+  },
+  {
+    "id": "l6",
+    "shipment": "s6",
+    "segment": "r1",
+    "kg": 31,
+    "state": "在载"
+  },
+  {
+    "id": "l7",
+    "shipment": "s7",
+    "segment": "r1",
+    "kg": 32,
+    "state": "在载"
+  },
+  {
+    "id": "l8",
+    "shipment": "s8",
+    "segment": "r1",
+    "kg": 33,
+    "state": "在载"
+  },
+  {
+    "id": "l9",
+    "shipment": "s9",
+    "segment": "r1",
+    "kg": 34,
+    "state": "在载"
+  },
+  {
+    "id": "l10",
+    "shipment": "s10",
+    "segment": "r1",
+    "kg": 35,
+    "state": "在载"
+  },
+  {
+    "id": "l11",
+    "shipment": "s11",
+    "segment": "r1",
+    "kg": 36,
+    "state": "在载"
+  },
+  {
+    "id": "l12",
+    "shipment": "s12",
+    "segment": "r1",
+    "kg": 37,
+    "state": "在载"
+  },
+  {
+    "id": "l13",
+    "shipment": "s13",
+    "segment": "r1",
+    "kg": 38,
+    "state": "在载"
+  },
+  {
+    "id": "l14",
+    "shipment": "s14",
+    "segment": "r1",
+    "kg": 25,
+    "state": "在载"
+  },
+  {
+    "id": "l15",
+    "shipment": "s15",
+    "segment": "r1",
+    "kg": 26,
+    "state": "在载"
+  },
+  {
+    "id": "l16",
+    "shipment": "s16",
+    "segment": "r1",
+    "kg": 27,
+    "state": "在载"
+  },
+  {
+    "id": "l17",
+    "shipment": "s17",
+    "segment": "r1",
+    "kg": 28,
+    "state": "在载"
+  },
+  {
+    "id": "l18",
+    "shipment": "s18",
+    "segment": "r1",
+    "kg": 29,
+    "state": "在载"
+  },
+  {
+    "id": "l19",
+    "shipment": "s19",
+    "segment": "r1",
+    "kg": 30,
+    "state": "在载"
+  },
+  {
+    "id": "l40",
+    "shipment": "s0",
+    "segment": "a1",
+    "kg": 37,
+    "state": "在载"
+  },
+  {
+    "id": "l41",
+    "shipment": "s1",
+    "segment": "a1",
+    "kg": 38,
+    "state": "在载"
+  },
+  {
+    "id": "l42",
+    "shipment": "s2",
+    "segment": "a1",
+    "kg": 25,
+    "state": "在载"
+  },
+  {
+    "id": "l43",
+    "shipment": "s3",
+    "segment": "a1",
+    "kg": 26,
+    "state": "在载"
+  },
+  {
+    "id": "l44",
+    "shipment": "s4",
+    "segment": "a1",
+    "kg": 27,
+    "state": "在载"
+  },
+  {
+    "id": "l45",
+    "shipment": "s5",
+    "segment": "a1",
+    "kg": 28,
+    "state": "在载"
+  },
+  {
+    "id": "l46",
+    "shipment": "s6",
+    "segment": "a1",
+    "kg": 29,
+    "state": "在载"
+  },
+  {
+    "id": "l47",
+    "shipment": "s7",
+    "segment": "a1",
+    "kg": 30,
+    "state": "在载"
+  },
+  {
+    "id": "l48",
+    "shipment": "s8",
+    "segment": "a1",
+    "kg": 31,
+    "state": "在载"
+  },
+  {
+    "id": "l49",
+    "shipment": "s9",
+    "segment": "a1",
+    "kg": 32,
+    "state": "在载"
+  },
+  {
+    "id": "l50",
+    "shipment": "s10",
+    "segment": "a1",
+    "kg": 33,
+    "state": "在载"
+  },
+  {
+    "id": "l51",
+    "shipment": "s11",
+    "segment": "a1",
+    "kg": 34,
+    "state": "在载"
+  },
+  {
+    "id": "l52",
+    "shipment": "s12",
+    "segment": "a1",
+    "kg": 35,
+    "state": "在载"
+  },
+  {
+    "id": "l53",
+    "shipment": "s13",
+    "segment": "a1",
+    "kg": 36,
+    "state": "在载"
+  },
+  {
+    "id": "l54",
+    "shipment": "s14",
+    "segment": "a1",
+    "kg": 37,
+    "state": "在载"
+  },
+  {
+    "id": "l55",
+    "shipment": "s15",
+    "segment": "a1",
+    "kg": 38,
+    "state": "在载"
+  },
+  {
+    "id": "l56",
+    "shipment": "s16",
+    "segment": "a1",
+    "kg": 25,
+    "state": "在载"
+  },
+  {
+    "id": "l57",
+    "shipment": "s17",
+    "segment": "a1",
+    "kg": 26,
+    "state": "在载"
+  },
+  {
+    "id": "l58",
+    "shipment": "s18",
+    "segment": "a1",
+    "kg": 27,
+    "state": "在载"
+  },
+  {
+    "id": "l59",
+    "shipment": "s19",
+    "segment": "a1",
+    "kg": 28,
+    "state": "在载"
+  },
+  {
+    "id": "l100",
+    "shipment": "s20",
+    "segment": "a2",
+    "kg": 27,
+    "state": "在载"
+  },
+  {
+    "id": "l101",
+    "shipment": "s21",
+    "segment": "a2",
+    "kg": 28,
+    "state": "在载"
+  },
+  {
+    "id": "l102",
+    "shipment": "s22",
+    "segment": "a2",
+    "kg": 29,
+    "state": "在载"
+  },
+  {
+    "id": "l103",
+    "shipment": "s23",
+    "segment": "a2",
+    "kg": 30,
+    "state": "在载"
+  },
+  {
+    "id": "l104",
+    "shipment": "s24",
+    "segment": "a2",
+    "kg": 31,
+    "state": "在载"
+  },
+  {
+    "id": "l105",
+    "shipment": "s25",
+    "segment": "a2",
+    "kg": 32,
+    "state": "在载"
+  },
+  {
+    "id": "l106",
+    "shipment": "s26",
+    "segment": "a2",
+    "kg": 33,
+    "state": "在载"
+  },
+  {
+    "id": "l107",
+    "shipment": "s27",
+    "segment": "a2",
+    "kg": 34,
+    "state": "在载"
+  },
+  {
+    "id": "l108",
+    "shipment": "s28",
+    "segment": "a2",
+    "kg": 35,
+    "state": "在载"
+  },
+  {
+    "id": "l109",
+    "shipment": "s29",
+    "segment": "a2",
+    "kg": 36,
+    "state": "在载"
+  },
+  {
+    "id": "l110",
+    "shipment": "s30",
+    "segment": "a2",
+    "kg": 37,
+    "state": "在载"
+  },
+  {
+    "id": "l111",
+    "shipment": "s31",
+    "segment": "a2",
+    "kg": 38,
+    "state": "在载"
+  },
+  {
+    "id": "l112",
+    "shipment": "s32",
+    "segment": "a2",
+    "kg": 25,
+    "state": "在载"
+  },
+  {
+    "id": "l113",
+    "shipment": "s33",
+    "segment": "a2",
+    "kg": 26,
+    "state": "在载"
+  },
+  {
+    "id": "l114",
+    "shipment": "s34",
+    "segment": "a2",
+    "kg": 27,
+    "state": "在载"
+  },
+  {
+    "id": "l115",
+    "shipment": "s35",
+    "segment": "a2",
+    "kg": 28,
+    "state": "在载"
+  },
+  {
+    "id": "l116",
+    "shipment": "s36",
+    "segment": "a2",
+    "kg": 29,
+    "state": "在载"
+  },
+  {
+    "id": "l117",
+    "shipment": "s37",
+    "segment": "a2",
+    "kg": 30,
+    "state": "在载"
+  },
+  {
+    "id": "l118",
+    "shipment": "s38",
+    "segment": "a2",
+    "kg": 31,
+    "state": "在载"
+  },
+  {
+    "id": "l119",
+    "shipment": "s39",
+    "segment": "a2",
+    "kg": 32,
+    "state": "在载"
+  }
+]

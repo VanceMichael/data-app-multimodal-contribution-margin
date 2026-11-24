@@ -1,0 +1,23 @@
+[
+  {
+    "id": "x1",
+    "currency": "USD",
+    "month": 10,
+    "cny_per_unit": 7.12,
+    "known_month": 10
+  },
+  {
+    "id": "x2",
+    "currency": "USD",
+    "month": 11,
+    "cny_per_unit": 7.2,
+    "known_month": 11
+  },
+  {
+    "id": "x3",
+    "currency": "CNY",
+    "month": 10,
+    "cny_per_unit": 1,
+    "known_month": 10
+  }
+]

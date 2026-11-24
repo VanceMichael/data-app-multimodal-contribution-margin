@@ -1,0 +1,9 @@
+[
+  {
+    "id": "p1",
+    "agent": "ag1",
+    "shipment": "s1",
+    "cents": 3000,
+    "month": 10
+  }
+]

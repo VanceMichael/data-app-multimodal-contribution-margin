@@ -1,0 +1,16 @@
+[
+  {
+    "id": "n1",
+    "segment": "a1",
+    "kg": 500,
+    "cny_cents": 800000,
+    "state": "已卖"
+  },
+  {
+    "id": "n2",
+    "segment": "a2",
+    "kg": 400,
+    "cny_cents": 750000,
+    "state": "备选"
+  }
+]

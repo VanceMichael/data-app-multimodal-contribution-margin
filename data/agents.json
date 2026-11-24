@@ -1,0 +1,16 @@
+[
+  {
+    "id": "ag1",
+    "basis": "核实毛利",
+    "fraction": 0.2,
+    "holdback": 0.3,
+    "negative_carry": true
+  },
+  {
+    "id": "ag2",
+    "basis": "回款",
+    "fraction": 0.08,
+    "holdback": 0.2,
+    "negative_carry": true
+  }
+]

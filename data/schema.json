@@ -1,0 +1,281 @@
+{
+  "format_version": 1,
+  "synthetic": true,
+  "tables": {
+    "shipments": {
+      "description": "客户票货及结构，不描述运输时效承诺",
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "票货"
+        },
+        "customer": {
+          "type": "string",
+          "description": "客户"
+        },
+        "category": {
+          "type": "string",
+          "description": "货类"
+        },
+        "weight_kg": {
+          "type": "number",
+          "description": "实重"
+        },
+        "chargeable_kg": {
+          "type": "number",
+          "description": "计费重"
+        },
+        "revenue_minor": {
+          "type": "integer",
+          "description": "原币收入"
+        },
+        "currency": {
+          "type": "string",
+          "description": "币种"
+        },
+        "received_minor": {
+          "type": "integer",
+          "description": "回款"
+        }
+      },
+      "refs": {}
+    },
+    "segments": {
+      "description": "实际共同运段和固定合同",
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "运段"
+        },
+        "route": {
+          "type": "string",
+          "description": "经营路径"
+        },
+        "kind": {
+          "type": "string",
+          "description": "陆运或空运"
+        },
+        "currency": {
+          "type": "string",
+          "description": "币种"
+        },
+        "minimum_minor": {
+          "type": "integer",
+          "description": "最低承购"
+        },
+        "capacity_kg": {
+          "type": "number",
+          "description": "合同计费重"
+        },
+        "transferable": {
+          "type": "boolean",
+          "description": "是否可转让"
+        }
+      },
+      "refs": {}
+    },
+    "loads": {
+      "description": "票货按段共载；取消后最低费依旧按合同",
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "装载"
+        },
+        "shipment": {
+          "type": "string",
+          "description": "票货"
+        },
+        "segment": {
+          "type": "string",
+          "description": "运段"
+        },
+        "kg": {
+          "type": "number",
+          "description": "本段计费重"
+        },
+        "state": {
+          "type": "string",
+          "description": "在载或退出"
+        }
+      },
+      "refs": {
+        "shipment": "shipments.id",
+        "segment": "segments.id"
+      }
+    },
+    "charges": {
+      "description": "真实费用原币最小单位及其性质",
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "账单"
+        },
+        "segment": {
+          "type": "string",
+          "description": "运段"
+        },
+        "kind": {
+          "type": "string",
+          "description": "固定或重量或查验"
+        },
+        "amount_minor": {
+          "type": "integer",
+          "description": "原币金额"
+        },
+        "currency": {
+          "type": "string",
+          "description": "币种"
+        },
+        "refundable": {
+          "type": "boolean",
+          "description": "可退"
+        },
+        "known_month": {
+          "type": "integer",
+          "description": "知悉月"
+        },
+        "tax_fraction": {
+          "type": "number",
+          "description": "税率"
+        }
+      },
+      "refs": {
+        "segment": "segments.id"
+      }
+    },
+    "fx": {
+      "description": "实际结算汇率及费用更正",
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "汇率"
+        },
+        "currency": {
+          "type": "string",
+          "description": "原币"
+        },
+        "month": {
+          "type": "integer",
+          "description": "结算月"
+        },
+        "cny_per_unit": {
+          "type": "number",
+          "description": "每原币人民币元"
+        },
+        "known_month": {
+          "type": "integer",
+          "description": "获知月"
+        }
+      },
+      "refs": {}
+    },
+    "agents": {
+      "description": "代理分成的有效约定",
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "代理"
+        },
+        "basis": {
+          "type": "string",
+          "description": "回款或核实毛利"
+        },
+        "fraction": {
+          "type": "number",
+          "description": "比例"
+        },
+        "holdback": {
+          "type": "number",
+          "description": "留置比例"
+        },
+        "negative_carry": {
+          "type": "boolean",
+          "description": "负值结转"
+        }
+      },
+      "refs": {}
+    },
+    "introductions": {
+      "description": "直客归属需要核实",
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "引介"
+        },
+        "shipment": {
+          "type": "string",
+          "description": "票货"
+        },
+        "agent": {
+          "type": "string",
+          "description": "代理"
+        },
+        "state": {
+          "type": "string",
+          "description": "确认或争议"
+        }
+      },
+      "refs": {
+        "shipment": "shipments.id",
+        "agent": "agents.id"
+      }
+    },
+    "prepayments": {
+      "description": "已预付代理款",
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "预付"
+        },
+        "agent": {
+          "type": "string",
+          "description": "代理"
+        },
+        "shipment": {
+          "type": "string",
+          "description": "票货"
+        },
+        "cents": {
+          "type": "integer",
+          "description": "人民币分"
+        },
+        "month": {
+          "type": "integer",
+          "description": "月"
+        }
+      },
+      "refs": {
+        "agent": "agents.id",
+        "shipment": "shipments.id"
+      }
+    },
+    "next_commitments": {
+      "description": "下期已卖报价和包板义务",
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "承诺"
+        },
+        "segment": {
+          "type": "string",
+          "description": "运段"
+        },
+        "kg": {
+          "type": "number",
+          "description": "占用重"
+        },
+        "cny_cents": {
+          "type": "integer",
+          "description": "确认收入"
+        },
+        "state": {
+          "type": "string",
+          "description": "已卖或备选"
+        }
+      },
+      "refs": {
+        "segment": "segments.id"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "i1",
+    "shipment": "s0",
+    "agent": "ag1",
+    "state": "争议"
+  },
+  {
+    "id": "i2",
+    "shipment": "s0",
+    "agent": "ag2",
+    "state": "争议"
+  },
+  {
+    "id": "i3",
+    "shipment": "s1",
+    "agent": "ag1",
+    "state": "确认"
+  }
+]
